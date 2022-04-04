@@ -1,0 +1,5 @@
+const { CloseServer } = require("../functions/CloseServer");
+
+test('should close current server connection', () => {
+    expect(CloseServer())
+ })
